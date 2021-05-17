@@ -1,0 +1,49 @@
+{
+  "name": "@yxxme/vue-count-up",
+  "author": "@yxxme",
+  "main": "lib/vue-count-up.umd.min.js",
+  "version": "1.0.1",
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "countup",
+    "vue-count-up",
+    "library"
+  ],
+  "description": "This is a vue component that will count up a target number at a specified duration",
+  "homepage": "https://github.com/yxxme/vue-count-up",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yxxme/vue-count-up.git"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name vue-count-up --dest lib packages/index.js"
+  },
+  "peerDependencies": {
+    "vue": "^2.5.17"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "countup.js": "^2.0.7",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
